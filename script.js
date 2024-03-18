@@ -2,7 +2,7 @@ const search = document.querySelector("#search-input");
 const button = document.querySelector(".js-btn");
 
 button.addEventListener("click", async () => {
-  const url = "http://api.weatherapi.com/v1";
+  const url = "https://api.weatherapi.com/v1";
   const apiKey = "25106ac1330141b2aab220317241603";
 
   try {
