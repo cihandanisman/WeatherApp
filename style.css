@@ -10,7 +10,8 @@ h1 {
 .print-here {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start; /* Kartları sol taraftan başlayarak sıralar */
+    justify-content: flex-start;
+    height: 50px; /* Kartları sol taraftan başlayarak sıralar */
   }
   
   .col-3 {
